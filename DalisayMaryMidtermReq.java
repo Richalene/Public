@@ -6,16 +6,16 @@ import java.util.Scanner;
 public class DalisayMaryMidtermReq { // Follow class naming conventions
     
     public static void main(String[] args) { // Main method
-        Scanner scanner = new Scanner(System.in); // Initialize Scanner for user input.
+        Scanner scanner = new Scanner(System.in); // Initializing scanner for user input
         //Follows the 4 space indent.
         // Input numbers
         System.out.print("Enter the first number: ");
-        String num1Str = scanner.nextLine(); // Read input as a string to handle large numbers.
-        BigInteger num1 = new BigInteger(num1Str); // Convert the string input to BigInteger.
+        String num1Str = scanner.nextLine(); // Read input as a string to handle large numbers
+        BigInteger num1 = new BigInteger(num1Str); // Convert the string input to BigInteger
 
         System.out.print("Enter the second number: ");
-        String num2Str = scanner.nextLine(); // Read input as a string to handle large numbers.
-        BigInteger num2 = new BigInteger(num2Str); // Convert the string input to BigInteger.
+        String num2Str = scanner.nextLine(); // Read input as a string to handle large numbers
+        BigInteger num2 = new BigInteger(num2Str); // Convert the string input to BigInteger
 
         // Invisible space (not necessary, can be removed)
         System.out.println("");
