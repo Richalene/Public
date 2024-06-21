@@ -23,23 +23,23 @@ public class DalisayMaryMidtermReq { // Follow class naming conventions
         // Operations and Output
         // Addition
         BigInteger sum = num1.add(num2); // Add
-        System.out.println("Sum: " + sum); // Output
+        System.out.println("Sum: " + sum); // Addition output
 
         // Subtraction
         BigInteger difference = num1.subtract(num2); // Subtract
-        System.out.println("Difference: " + difference); // Output
+        System.out.println("Difference: " + difference); // Subtraction Output
 
         // Multiplication
         BigInteger product = num1.multiply(num2); // Multiply
-        System.out.println("Product: " + product); // Output
+        System.out.println("Product: " + product); // Multiplication output 
 
         // Division
         BigInteger[] quotientAndRemainder = num1.divideAndRemainder(num2); // Perform division and get quotient and remainder
-        BigInteger quotient = quotientAndRemainder[0]; // quotient
-        BigInteger remainder = quotientAndRemainder[1]; // remainder
-        System.out.println("Quotient = " + quotient + ", Remainder = " + remainder); // Output
+        BigInteger quotient = quotientAndRemainder[0]; // Get quotient
+        BigInteger remainder = quotientAndRemainder[1]; // Get remainder
+        System.out.println("Quotient = " + quotient + ", Remainder = " + remainder); // Division output
 
-        // Closing the scanner to avoid resource leaks
+        // Close the scanner
         scanner.close();
     }
 }
